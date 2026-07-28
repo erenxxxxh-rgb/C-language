@@ -11,9 +11,9 @@ export default function ProductDetailPage() {
   // Media Array (Images and Videos)
   const mediaContent = [
     { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 7.png", alt: "Front view of tee" },
-    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png", alt: "Blue and White Straps" }, // Placeholder for 2nd image
+    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png", alt: "Blue and White Straps" }, 
     { type: "image", src: "/Gemini 1.png", alt: "Real Life View" }, 
-    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 4.png", alt: "Real Life View" },// Placeholder for 3rd image
+    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 4.png", alt: "Real Life View" },
     { type: "video", src: "/create_a_promotional_video_of.mp4", alt: "Product video" }, 
   ];
 
@@ -60,17 +60,17 @@ export default function ProductDetailPage() {
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         
         {/* LEFT COLUMN: IMAGE / VIDEO SLIDER */}
-        <div className="relative w-full aspect-[3/4] bg-white/40 rounded-2xl border border-white/30 overflow-hidden shadow-lg group">
+        <div className="relative w-full h-[60vh] md:h-[80vh] bg-white/40 rounded-2xl border border-white/30 overflow-hidden shadow-lg group">
           
           {/* Current Media Display */}
           {mediaContent[currentIndex].type === "image" ? (
             <img 
               src={mediaContent[currentIndex].src} 
               alt={mediaContent[currentIndex].alt} 
-              className="w-full h-full object-cover transition-opacity duration-500"
+              className="w-full h-full object-contain transition-opacity duration-500"
             />
           ) : (
-            <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+            <video autoPlay loop muted playsInline className="w-full h-full object-contain">
               <source src={mediaContent[currentIndex].src} type="video/mp4" />
             </video>
           )}
