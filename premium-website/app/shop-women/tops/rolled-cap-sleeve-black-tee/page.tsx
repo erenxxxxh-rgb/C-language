@@ -10,15 +10,17 @@ export default function ProductDetailPage() {
   
   // Media Array (Images and Videos)
   const mediaContent = [
-    { type: "image", src: "/black-cap-tee.jpg", alt: "Front view of black tee" },
-    { type: "image", src: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1000&auto=format&fit=crop", alt: "Fabric detail" }, // Placeholder for 2nd image
-    { type: "image", src: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1000&auto=format&fit=crop", alt: "Styled look" }, // Placeholder for 3rd image
+    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 7.png", alt: "Front view of tee" },
+    { type: "image", src: "Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png", alt: "Blue and White Straps" }, // Placeholder for 2nd image
+    { type: "image", src: "Gemini 1.png", alt: "Real Life View" }, 
+    { type: "image", src: "Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 4.png", alt: "Real Life View" },// Placeholder for 3rd image
+    { type: "video", src: "create_a_promotional_video_of.mp4", alt: "Real Life View" }, 
   ];
 
   const colors = [
-    { name: "Obsidian Black", hex: "#171717", active: true },
-    { name: "Soft Linen White", hex: "#F5F5F5", active: false },
-    { name: "Warm Tan", hex: "#D4A373", active: false },
+    { name: "Black", hex: "#171717", active: true },
+    { name: "Soft Linen Blue", hex: "#58b1ca", active: false },
+    { name: "White & Blue Straps", hex: "#225c93", active: false },
   ];
 
   // STATE FOR IMAGE SLIDER
@@ -109,7 +111,7 @@ export default function ProductDetailPage() {
           <div>
             <p className="text-xs uppercase tracking-widest font-semibold text-neutral-600 mb-2">Capsule Essentials</p>
             <h1 className="text-3xl md:text-4xl font-light uppercase tracking-widest text-black mb-4">
-              Rolled Cap-Sleeve Tee
+              Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 
             </h1>
             
             {/* Reviews Section */}
