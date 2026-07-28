@@ -160,16 +160,19 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Copyright */}
-          <div className="w-full border-t border-neutral-800 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-neutral-500 uppercase tracking-widest">
-            <p>&copy; {new Date().getFullYear()} Hemline Clothing. All rights reserved.</p>
-            <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-              <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
+        {/* Copyright & Disclaimer */}
+         <div className="w-full border-t border-neutral-800 pt-8 flex flex-col items-center justify-between text-xs text-neutral-500 uppercase tracking-widest gap-4"></div>
+            <p className="text-center max-w-3xl leading-relaxed">
+              Hemline Clothing is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, I earn from qualifying purchases.
+            </p>
+            <div className="flex flex-col md:flex-row items-center justify-between w-full mt-4">
+              <p>&copy; {new Date().getFullYear()} Hemline Clothing. All rights reserved.</p>
+              <div className="flex gap-4 mt-4 md:mt-0">
+                <Link href="/" className="hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="/" className="hover:text-white transition-colors">Terms of Service</Link>
+              </div>
             </div>
           </div>
-          
-        </div>
       </footer>
 
     </main>
