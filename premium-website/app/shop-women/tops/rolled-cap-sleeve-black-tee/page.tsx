@@ -11,10 +11,10 @@ export default function ProductDetailPage() {
   // Media Array (Images and Videos)
   const mediaContent = [
     { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 7.png", alt: "Front view of tee" },
-    { type: "image", src: "Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png", alt: "Blue and White Straps" }, // Placeholder for 2nd image
-    { type: "image", src: "Gemini 1.png", alt: "Real Life View" }, 
-    { type: "image", src: "Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 4.png", alt: "Real Life View" },// Placeholder for 3rd image
-    { type: "video", src: "create_a_promotional_video_of.mp4", alt: "Real Life View" }, 
+    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png", alt: "Blue and White Straps" }, // Placeholder for 2nd image
+    { type: "image", src: "/Gemini 1.png", alt: "Real Life View" }, 
+    { type: "image", src: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 4.png", alt: "Real Life View" },// Placeholder for 3rd image
+    { type: "video", src: "/create_a_promotional_video_of.mp4", alt: "Product video" }, 
   ];
 
   const colors = [

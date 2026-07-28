@@ -7,7 +7,7 @@ export default function TopsAndBlousesPage() {
       id: "rolled-cap-sleeve-black-tee",
       name: "Rolled Cap-Sleeve Tee",
       category: "Capsule Essentials",
-      image: "/black-cap-tee.jpg", // Make sure this image is saved in your 'public' folder
+      image: "/Gemini 1.png", // Make sure this image is saved in your 'public' folder
       description: "A versatile crewneck tee featuring cuffed cap sleeves and a relaxed, loose fit. Perfect for modern, everyday layering.",
       amazonUrl: "https://amzn.to/4fVV3p4", // Your active Amazon Associate link
       detailRoute: "/shop-women/tops/rolled-cap-sleeve-black-tee",
