@@ -18,7 +18,7 @@ export default function ShopWomen() {
     {
       title: "Shorts & Bottoms",
       description: "Tailored linen shorts, aesthetic denim, and relaxed trousers.",
-      image: "/bottoms.jpg",
+      image: "/3b.png",
       href: "/shop-women/bottoms",
     },
   ];
