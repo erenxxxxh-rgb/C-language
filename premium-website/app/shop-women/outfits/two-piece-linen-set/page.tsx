@@ -6,7 +6,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Star, ShoppingBag } from "lucide-
 
 export default function OutfitDetailPage() {
   // PRODUCT DATA
-  const amazonAffiliateUrl = "PASTE_YOUR_AMZN_LINK_HERE"; // Your exact link for the Lounge Set
+  const amazonAffiliateUrl = "https://link.amazon/B01gP4P7d"; // Your exact link for the Lounge Set
   
   // Media Array (Images and Videos)
   const mediaContent = [
