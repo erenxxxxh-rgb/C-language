@@ -6,13 +6,13 @@ export default function ShopWomen() {
     {
       title: "Pre-Designed Outfits",
       description: "Complete, coordinated fits curated for instant effortless style.",
-      image: "/outfits.jpg",
+      image: "/2a.png",
       href: "/shop-women/outfits",
     },
     {
       title: "Tops & Blouses",
       description: "From minimalist tees to structured blouses and statement tops.",
-      image: "/black-cap-tee.jpg",
+      image: "/Zeagoo Womens Tops Summer Casual Cap Sleeve Tshirts Shirts Business Blouses 3.png",
       href: "/shop-women/tops",
     },
     {
