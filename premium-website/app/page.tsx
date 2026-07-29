@@ -11,7 +11,7 @@ export default function Home() {
     },
     {
       title: "Modern Minimalist",
-      image: "https://images.unsplash.com/photo-1434389670869-c875225c93c4?q=80&w=1920&auto=format&fit=crop",
+      image: "2a.png",
       link: "#",
     },
     {
