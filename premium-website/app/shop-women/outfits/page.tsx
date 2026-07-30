@@ -12,6 +12,15 @@ export default function OutfitsPage() {
       amazonUrl: "https://link.amazon/B01gP4P7d", // Grab your link from SiteStripe
       detailRoute: "/shop-women/outfits/two-piece-linen-set",
     },
+    {
+      id: "ribbed-knit-midi-set",
+      name: "Ribbed Knit Midi Skirt Set",
+      category: "Pre-Designed Outfits",
+      image: "/4d.png", // Remember to drop a pic in the public folder!
+      description: "A flattering ribbed knit two-piece set featuring a cropped tank and a midi skirt with a side slit. Perfect for transition weather.",
+      amazonUrl: "https://amzn.to/3TsagFM", // Grab your link from SiteStripe
+      detailRoute: "/shop-women/outfits/ribbed-knit-midi-set",
+    },
     // Future outfits will be pasted right below here!
   ];
 
