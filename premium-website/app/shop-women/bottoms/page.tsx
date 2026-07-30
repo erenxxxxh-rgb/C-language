@@ -13,6 +13,15 @@ export default function BottomsPage() {
       amazonUrl: "https://link.amazon/B0fOAvRPz", // Your active Amazon Associate link
       detailRoute: "/shop-women/bottoms/high-rise-wide-leg-linen-trousers",
     },
+    {
+      id: "wide-leg-low-rise-sweatpants",
+      name: "Huukeay Women Low Rise Pants | Wide Leg, Elastic, Drawstring, Sweat Pants, Trendy, Casual, Baggy, Pockets, Soft, Comfortable, Daily Wear, Travel, Sports",
+      category: "Casual Wear",
+      image: "/5a.png", // Remember to add this image to your public folder!
+      description: "Flowy, wide-leg sweatpants featuring a comfortable low-rise fit and an adjustable drawstring waist. Perfect for street styling or home relaxation.",
+      amazonUrl: "https://amzn.to/4yIRbPT", // Your SiteStripe link
+      detailRoute: "/shop-women/bottoms/wide-leg-low-rise-sweatpants",
+    },
     // Future bottom wear products will go here!
   ];
 
