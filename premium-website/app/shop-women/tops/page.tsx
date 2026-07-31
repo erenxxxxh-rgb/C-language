@@ -12,6 +12,15 @@ export default function TopsAndBlousesPage() {
       amazonUrl: "https://amzn.to/4fVV3p4", // Your active Amazon Associate link
       detailRoute: "/shop-women/tops/rolled-cap-sleeve-black-tee",
     },
+    {
+      id: "oversized-button-down-linen-shirt",
+      name: "RUMIA Short Sleeve Sweater for Women Lightweight Business Casual Tops | 2026 Summer Tops, Dressy Casual Blouses, Work Office Shirts, Fashion Clothing, Flattering Fit",
+      category: "Capsule Essentials",
+      image: "/6b.png", // Remember to add this image to your public folder!
+      description: "A breezy, oversized linen blend button-down. Wear it open over a tank, fully buttoned, or tied at the waist for effortless styling.",
+      amazonUrl: "https://amzn.to/4wQqck5", // Your SiteStripe link
+      detailRoute: "/shop-women/tops/oversized-button-down-linen-shirt",
+    },
     // Future products will go here in the next columns!
   ];
 
